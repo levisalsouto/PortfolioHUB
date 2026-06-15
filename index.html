@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioHUB | Meu Portfólio</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        section {
+            margin-bottom: 2.5rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--primary-color);
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #2980b9;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Portfólio Profissional</h1>
+        <p>Desenvolvedor(a) focado(a) em criar soluções eficientes e inovadoras.</p>
+    </header>
+
+    <div class="container">
+        <section id="bio">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou estudante de tecnologia apaixonado(a) por desenvolvimento de software. Este é o meu <strong>PortfolioHUB</strong>, um repositório centralizado onde organizo minha jornada acadêmica e meus experimentos pessoais em código. Sempre em busca de aprender novas ferramentas e aplicar boas práticas de versionamento.</p>
+        </section>
+
+        <section id="academicos">
+            <h2>Projetos Acadêmicos</h2>
+            <p>Trabalhos desenvolvidos durante minha formação:</p>
+            <ul>
+                <li><a href="./projetos-academicos/projeto1/">Projeto 1 - Sistema de Gestão</a></li>
+                <li><a href="./projetos-academicos/projeto2/">Projeto 2 - Análise de Dados</a></li>
+            </ul>
+        </section>
+
+        <section id="pessoais">
+            <h2>Projetos Pessoais</h2>
+            <p>Iniciativas próprias e estudos independentes:</p>
+            <ul>
+                <li><a href="./projetos-pessoais/app-financas/">App de Finanças Pessoais</a></li>
+                <li><a href="./projetos-pessoais/bot-discord/">Bot para Discord</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <h2>Vamos nos conectar?</h2>
+        <p>Gostou do meu trabalho ou quer trocar uma ideia?</p>
+        <a href="https://linkedin.com/in/SEU-LINKEDIN-AQUI" target="_blank" class="btn">Meu Perfil no LinkedIn</a>
+    </footer>
+
+</body>
+</html>
